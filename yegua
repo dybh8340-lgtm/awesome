@@ -1,0 +1,35 @@
+war-engine/
+│
+├── README.md
+│
+├── engine/
+│   ├── core/
+│   │   ├── physics/
+│   │   ├── ai/
+│   │   ├── weapons/
+│   │   ├── movement/
+│   │   ├── networking/
+│   │   └── world/
+│   │
+│   ├── renderer/
+│   ├── audio/
+│   ├── input/
+│   └── utils/
+│
+├── game/
+│   ├── characters/
+│   ├── weapons/
+│   ├── maps/
+│   ├── ui/
+│   └── gamemodes/
+│
+├── server/
+│   ├── auth/
+│   ├── matchmaking/
+│   ├── rooms/
+│   ├── anti-cheat/
+│   └── telemetry/
+│
+└── aureamind/
+    ├── bridge/
+    └── ai-director/
