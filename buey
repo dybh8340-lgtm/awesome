@@ -1,0 +1,75 @@
+el-lobo-alfa-os/
+│
+├── README.md
+│
+├── os/
+│   ├── boot/
+│   │   ├── boot.json
+│   │   └── ui/
+│   │       ├── index.html
+│   │       └── style.css
+│   │
+│   ├── kernel/
+│   │   ├── kernel.json
+│   │   └── ui/
+│   │       ├── index.html
+│   │       ├── style.css
+│   │       └── app.js
+│   │
+│   ├── loader/
+│   │   ├── os_loader.json
+│   │   ├── core/
+│   │   │   └── lib.rs
+│   │   ├── bridge/
+│   │   │   └── bridge.rs
+│   │   └── ui/
+│   │       ├── index.html
+│   │       ├── style.css
+│   │       └── app.js
+│   │
+│   ├── notifications/
+│   │   ├── notifications.json
+│   │   └── core/
+│   │       └── lib.rs
+│   │
+│   ├── settings/
+│   │   ├── settings.json
+│   │   ├── core/
+│   │   │   └── lib.rs
+│   │   └── ui/
+│   │       ├── index.html
+│   │       ├── style.css
+│   │       └── app.js
+│   │
+│   ├── themes/
+│   │   ├── themes.json
+│   │   └── core/
+│   │       └── lib.rs
+│   │
+│   ├── audio/
+│   │   ├── audio.json
+│   │   └── ui/
+│   │       └── index.html
+│   │
+│   ├── biometrics/
+│   │   ├── biometrics.json
+│   │   └── core/
+│   │       └── lib.rs
+│   │
+│   └── aureamind/
+│       ├── aureamind.json
+│       └── core/
+│           └── lib.rs
+│
+├── modules/
+│   ├── imperio.core/
+│   ├── entrenamiento.core/
+│   ├── social.radar/
+│   ├── creativo.studio/
+│   ├── silencio.camara/
+│   ├── viaje.nav/
+│   └── wealth.core/
+│
+└── shared/
+    ├── styles/
+    └── components/
